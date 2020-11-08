@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 
-const reviewShcema = mongoose.Schema(
+const reviewSchema = mongoose.Schema(
   {
     name: { type: String, required: true },
     rating: { type: Number, required: true },
@@ -16,7 +16,7 @@ const productSchema = mongoose.Schema(
     user: {
       type: mongoose.Schema.Types.ObjectId,
       required: true,
-      ref: 'User'
+      ref: 'User',
     },
     name: {
       type: String,
@@ -38,7 +38,7 @@ const productSchema = mongoose.Schema(
       type: String,
       required: true,
     },
-    reviews: [reviewShcema],
+    reviews: [reviewSchema],
     rating: {
       type: Number,
       required: true,

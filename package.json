@@ -23,7 +23,12 @@
     "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",
     "express-async-handler": "^1.1.4",
+    "express-validator": "^6.6.1",
     "i": "^0.3.6",
-    "mongoose": "^5.10.12"
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.12",
+    "mongoose-unique-validator": "^2.0.3",
+    "multer": "^1.4.2",
+    "react-transition-group": "^4.4.1"
   }
 }
